@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee|Gudea|Overpass+Mono|Zilla+Slab+Highlight" rel="stylesheet">
+
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <!-- Weather Icons Library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css">
+
+  <script type="text/javascript" src="weather.js"></script>
+
+  <link rel="stylesheet" href="weather.css">
+
+</head>
+
+<title>
+  Weather App
+</title>
+
+<div id="background" class="background">
+
+  <div>
+    <p class="titleText">Weather you like it or not...</p>
+    <p class="locationText" id=place></p>
+    <p class="dateText" id="time"></p>
+  </div>
+
+  <div class="mainGrid">
+
+    <div class="areaWeather">
+      <h2 style="font-size: 3vw"><u>Overview</u></h2>
+      <div style="padding: 0.3em 0em 0em 0em">
+        <span id="weatherIcon"></span>
+        <span id="weatherDescription"></span>
+      </div>
+    </div>
+
+    <div class="areaTemp">
+      <h2 style="font-size: 3vw"><u>Temperature</u></h2>
+      <div style="padding: 0.3em 0em 0em 0em">
+        <span id="thermometer" style="font-size: 4vw"></span>
+        <span id="temp"></span>
+      </div>
+    </div>
+
+    <div class="areaSun">
+      <h2 style="font-size: 3vw"><u>Sunrise/Sunset</u></h2>
+      <p id="sunrise"></p>
+      <p id="sunset"></p>
+    </div>
+
+    <div class="areaWind">
+      <h2 style="font-size: 3vw"><u>Wind</u></h2>
+      <span id="windDirection" style="font-size: 5vw"></span><span id="windSpeed"></span>
+    </div>
+
+  </div>
+
+
+  <!-- flip switch-->
+  <div style="padding: 0em 0em 4em 4em">
+    <div class="onoffswitch">
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox unit-toggle-button" id="myonoffswitch" checked>
+      <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+    </div>
+  </div>
+
+</div>
+
+</html>
