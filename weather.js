@@ -113,7 +113,7 @@ function assignBackgroundImage(data) {
 function getBackgroundUrl(data) {
   let imageAddress;
 
-  const frosty = "http://cdn.pcwallart.com/images/frosty-background-wallpaper-2.jpg'";
+  const frosty = "http://cdn.pcwallart.com/images/frosty-background-wallpaper-2.jpg";
   const chilly = "https://www.yogabliss.co.uk/images/screen/1024_cornwall2.jpg";
   const mild = "https://i.pinimg.com/originals/00/35/b5/0035b5d3f2dfffcb8d5e42fda7f8e958.jpg";
   const warm = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMu8p95zatjamPuROqoVN3mVlJQMIhyqxRL_LbRDua3y-fzdXV0Q";
