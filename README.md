@@ -1,4 +1,4 @@
-#Weather App.
+# Weather App.
 
 This app is a project set by Free Code Camp.  The app detects the users location and displays the current weather conditions.
 
