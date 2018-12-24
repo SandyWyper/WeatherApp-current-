@@ -5,3 +5,4 @@ This app is a project set by Free Code Camp.  The app detects the users location
 Use of:
 Jquery API .get requests.
 populating fields in html using element ID tags and JSON pathways.
+Background changes depending on current temperature.
