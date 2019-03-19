@@ -1,0 +1,26 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "live weather data",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandyWyper/WeatherApp-current-.git"
+  },
+  "author": "Sandy!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandyWyper/WeatherApp-current-/issues"
+  },
+  "homepage": "https://github.com/SandyWyper/WeatherApp-current-#readme",
+  "dependencies": {
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
