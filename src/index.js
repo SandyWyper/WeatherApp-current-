@@ -1,6 +1,8 @@
+
 let selectedUnits = 'metric';
 
 function startApp() {
+
 
     getGeoLocation();
 
